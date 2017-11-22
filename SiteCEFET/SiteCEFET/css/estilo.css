@@ -1,0 +1,157 @@
+
+body {
+	background: url(http://i.imgur.com/SWcI1sE.png);
+}
+
+.menu ul {
+	list-style: none;
+	float: left;
+}
+
+.menu li{
+	color:#f99084;
+	font-family: 'Bad Script', cursive;
+}
+
+a:link 
+{ 
+	text-decoration:none; 
+	color:#f99084;
+} 
+
+a:hover {
+	text-decoration:none; 
+	color:#f99084;
+	}
+a:visited {
+	text-decoration:none; 
+	color:#f99084;
+}
+
+.post, .colmenor{
+	background-color: rgba(255,255,255,0.8);
+}
+
+.post-texto p {
+	color:#000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.0em;
+}
+
+.post-texto span {
+	color:#f99084;
+}
+.post-titulo {
+	color:#000;
+	font-family:'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.bv-texto {
+	color:#000;
+	font-family:'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.btn-show {
+	font-family:'Raleway', sans-serif;
+	color:#f99084;
+	text-align: center;
+}
+	.btn-show:hover {
+	background:transparent;
+}
+
+
+#LS-Newsletter4-Box {
+	background: url(https://lh3.googleusercontent.com/-VrmTAll-DTI/Vk4YtnIwPMI/AAAAAAAAD_k/jfxkZQAMOCI/s300-Ic42/Newsletter1.png) no-repeat scroll center center transparent;
+	height: 300px;
+	width: 300px;
+}
+form#LS-Newsletter4-Form {
+	display: block;
+	margin: 0;
+	padding-left: 50px;
+	padding-top: 80px;
+}
+form#LS-Newsletter4-Form #s {
+	background: transparent;
+	border: none;
+	color: #444242;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+	height: 28px;
+	margin-top: 37px;
+	vertical-align: top;
+	width: 240px;
+	outline:0px;
+	position: relative;
+	left: -25px;
+	}
+	form#LS-Newsletter4-Form #d {
+	background: transparent;
+	border: none;
+	color: #444242;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+	height: 28px;
+	margin-top: 38px;
+	vertical-align: top;
+	width: 240px;
+	outline:0px;
+	position: relative;
+	left: -25px;
+}
+form#LS-Newsletter4-Form #sbutton {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	height: 43px;
+	position: relative;
+	left: 32px;
+	top: 25px;
+	width: 140px;
+	border-radius: 5px;
+}
+
+/* Smartphones e tablets ----------- */
+@media only screen and (max-device-width : 1023px) {
+	.post-titulo{
+		font-size: 0.9em;
+	}
+	.colmenor, .posts-recentes{
+	display:none;
+}
+	.btn-show{
+		background: transparent;
+	}
+	
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1024px) {
+	
+	
+	.menu li {
+		font-size: 2.0em;
+	}
+	
+	.post-titulo{
+		font-size: 1.3em;
+	}
+	.titulo, .instagram h2{
+		color:#f99084;
+		font-family: 'Bad Script', cursive;
+		font-size: 1.8em;
+	}
+	
+	.sobre p {
+		color:#000;
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.0em;
+	}
+}

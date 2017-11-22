@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="provaçao"> 
+ <head>
+<title>FilmesLivroAção</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	
+	<!-- <link rel="text/javascript" href="./bootstrap/bootstrap.min.js"> -->
+	<link rel="stylesheet" href="./css/css.css">
+	<link rel="stylesheet" href="./css/estilo.css">
+	<link rel="stylesheet" href="./css/slide.css">
+	
+	
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+	
+	
+	<!-- SnapWidget -->
+	<script src="https://snapwidget.com/js/snapwidget.js"></script>
+
+	<script>
+		$(function(){
+			
+			$(".btn-show").on("click", function(){
+				if($(".show-text").css("display","none")){
+					$(".show-text").show;
+					$(".show-text").css("display","block");
+					$(".btn-show").remove();
+				}
+				
+				else if($(".show-text").css("display","block")) {
+					$(".show-text").hide();
+					$(".show-text").css("display","none");
+				}
+			});
+			
+		});
+	</script>
+	
+ </head>
+ <body>
+ <header class="header ">
+	<div class="logo swing" >
+	 <img class="logo-img" src="./img/logo.png" alt="Logo"/>
+	</div>
+	<nav class="menu">
+		
+		<ul >
+			<li><a href="index.html">Início</a></li>
+			<li><a href="filmes.html">Filmes</a></li>
+			<li><a href="livros.html">Livros</a></li>
+			<li><a href="viagens.html">Viagens</a></li>
+			<li><a href="outros.html">Contato</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+		</ul>	
+	</nav>
+	</header>
+	
+	<main class="main">	
+		
+		<div class="area-post">
+			<div class="post">
+			<div class="formulario">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmm3U3Y-NucZCF2kpR6RJDenqVC5ikv-Y6bldGxt_TVgukuw/viewform?embedded=true" width="760" height="1100" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+			</div>
+			</div>
+		</div>
+
+	</main>
+
+	<div class="colmenor hidden">
+		
+		<!-- <div class="busca">
+		<form action="/search" class="search" method="get">
+			<input class="txtbusca" name="q" type="text" value="" placeholder="Pesquise aqui" />
+			<input class="btnBusca" type="submit" value="Ok"/> 
+		</form>
+		</div> -->
+		
+		<div class="sobre">
+			<h2 class="titulo" ><a href="sobre.html" > Francine e Vitória </a></h2>
+			<img class="sobre-img sobre-imgfirst" src="http://i.imgur.com/d9fGov7.jpg" alt="Imagem das editoras" />
+			<img class="sobre-img" src="http://i.imgur.com/vg6XIi4.jpg" alt="Imagem das editoras" />
+			<br/><br/>
+			<p> Nós somos duas amigas, Francine e Vitória. </p>
+		</div>
+		
+		<div class="instagram">
+			<h2>Instagram</h2>
+			<iframe src="https://snapwidget.com/embed/298050" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+		</div>
+		<div class="instagram">
+			<h2>Instagram</h2>
+			<iframe src="https://snapwidget.com/embed/472666" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+		</div>
+		
+		
+	</div>
+	
+ </body>
+ 
+ 
+ 
+</html>
